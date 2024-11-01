@@ -44,6 +44,17 @@ original_paths = [
     r"C:\Users\SeuUsuario\Desktop\arquivo2.txt"
 ]
 ```
-## Contribuição
+## Versão 1.0-alpha
 
-Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests ou relatar problemas.
+Alterações na Versão 1.0-alpha
+
+1. **Refatoração e Organização:**
+- Código otimizado com funções renomeadas e comentários explicativos.
+2. **Configuração Simplificada:**
+- Configurações padrão agora em config.json, incluindo diretórios e pasta oculta predefinidos.
+3. **Gerenciamento de Pasta Oculta:**
+- Pasta oculta ```AppPath``` criada automaticamente e configurada como oculta.
+4. **Proteção com Senha:**
+- Autenticação com tentativas limitadas e armazenamento seguro da senha no ```AppPath```.
+5. **Interface Gráfica:**
+- Diálogos via Tkinter permitem escolha entre mover ou restaurar arquivos.
